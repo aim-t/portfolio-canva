@@ -1,4 +1,28 @@
+:root{
+    --font-bold: specifyPerson;
+    --font-normal: roxborough;
+    --font-light: roxboroughThin;
+
+    --accent-clr: #f27c22 ;
+    --clr:  #252627; 
+    --bg: #ffffff;
+    
+}
 @font-face {
     font-family: specifyPerson;
-    src: url('fonts/SpecifyPERSONAL-ExExpBold.ttf');
-  }
+    src: url('./fonts/SpecifyPERSONAL-ExExpBold.ttf');
+}
+
+@font-face{
+    font-family: roxborough;
+    src: url('./fonts/Roxborough\ CF.ttf');
+}
+
+@font-face{
+    font-family: roxboroughThin;
+    src: url('./fonts/FontsFree-Net-roxborough-cf-thin.ttf');
+}
+
+body{
+    font-family: var(--font-bold);
+}
