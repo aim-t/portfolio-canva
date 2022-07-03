@@ -13,7 +13,7 @@
 - 
 
 ### font size
-- nav : 1px
+- nav : 16px
 
 - main header text: 71px
 - header subtext: 58px
